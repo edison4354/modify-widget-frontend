@@ -4,6 +4,7 @@ import NotifcationIcon from "../../images/NotificationIcon.svg";
 import Avatar from "../../images/Avatar.png";
 import WeatherLogo from "../../images/WeatherLogo.svg";
 import SpotifyLogo from "../../images/SpotifyLogo.svg";
+import { useNavigate } from 'react-router-dom'
 
 import {
   DashboardContainer,
@@ -31,6 +32,18 @@ import {
 } from "./DashboardElements";
 
 const DashBoard = () => {
+  let navigate = useNavigate();
+  useEffect(() => {
+    let authToken = sessionStorage.getItem('Auth Token')
+
+    if (authToken) {
+        navigate('/dashboard')
+    }
+
+    if (!authToken) {
+        navigate('/login')
+    }
+  }, [])
   return (
     <>
       <DashboardContainer>
