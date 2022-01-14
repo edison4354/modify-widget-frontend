@@ -6,6 +6,7 @@ import ExploreIcon from "../../images/ExploreIcon.svg";
 import HelpIcon from "../../images/HelpIcon.svg";
 import LogoutIcon from "../../images/LogoutIcon.svg";
 import SettingIcon from "../../images/SettingIcon.svg";
+import { useNavigate } from 'react-router-dom'
 
 import {
   SidebarContainer,
@@ -15,9 +16,16 @@ import {
   SideItem,
   SideIcon,
   SideLinks,
+  SideButton
 } from "./SidebarElements";
 
 const Sidebar = () => {
+  let navigate = useNavigate();
+
+  const handleLogout = () => {
+    sessionStorage.removeItem('Auth Token');
+    navigate('/login')
+  }
   return (
     <>
       <SidebarContainer>
@@ -48,7 +56,7 @@ const Sidebar = () => {
             </SideItem>
             <SideItem>
               <SideIcon src={LogoutIcon} alt="Log Out Icon" />
-              <SideLinks to="/logout">Log Out</SideLinks>
+              <SideButton onClick={handleLogout}>Log Out</SideButton>
             </SideItem>
           </SideMenu>
         </SidebarWrapper>
