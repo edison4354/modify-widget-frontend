@@ -10,7 +10,7 @@ const HeroSection = () => {
     <>
       <HeroContainer>
         <HeroWrap>
-          <Button to="dashboard">Get Started</Button>
+          <Button to="/login">Get Started</Button>
         </HeroWrap>
       </HeroContainer>
     </>
