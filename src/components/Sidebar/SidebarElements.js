@@ -3,15 +3,16 @@ import { Link as LinkR } from "react-router-dom";
 
 export const SidebarContainer = styled.div`
   background: #eef0f6;
-  width: 250px;
+  width: 230px;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: start;
   font-size: 1rem;
-  /* position: fixed;
+  position: sticky;
   top: 0;
-  left: 0; */
+  left: 0;
+  overflow: scroll;
 `;
 
 export const SidebarWrapper = styled.div`
@@ -31,6 +32,8 @@ export const SideMenu = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 80px;
+  margin: 0 10px;
+  width: 140px;
 `;
 
 export const SideIcon = styled.img``;
