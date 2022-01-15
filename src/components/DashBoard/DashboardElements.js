@@ -109,7 +109,6 @@ export const WidgetCell = styled.div`
   text-align: center;
   padding: 18px;
   border-radius: 15px;
-  max-width: 350px;
   justify-content: start;
   align-items: flex-start;
   flex-direction: column;
