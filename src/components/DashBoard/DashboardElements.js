@@ -112,7 +112,7 @@ export const WidgetCell = styled.div`
   justify-content: start;
   align-items: flex-start;
   flex-direction: column;
-`;
+`
 
 export const WidgetHead = styled.div`
   display: flex;
