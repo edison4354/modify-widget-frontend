@@ -48,7 +48,8 @@ export const SideLinks = styled(LinkR)`
   margin: 0 1rem;
   height: 100%;
   cursor: pointer;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 `;
 
 export const SideButton = styled.button`
@@ -64,8 +65,9 @@ export const SideButton = styled.button`
   border: none;
   background: none;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-`
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+`;
 
 export const SideItem = styled.div`
   display: flex;
@@ -75,13 +77,13 @@ export const SideItem = styled.div`
   border-radius: 15px;
 
   &:hover {
-    background: #E3E3E3;
+    background: #e3e3e3;
   }
 
   &:hover ${SideLinks} {
     font-weight: 700;
   }
-  
+
   &:hover ${SideButton} {
     font-weight: 700;
   }
