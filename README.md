@@ -14,4 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-![alt text](https://github.com/edison4354/modify-widget-frontend/blob/main/src/images/logo.svg?raw=true)
+![Alt text](src/images/Logo.png?raw=true "Logo")
