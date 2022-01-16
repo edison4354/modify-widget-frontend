@@ -15,3 +15,5 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ![Alt text](src/images/Logo.png?raw=true "Logo")
+![Alt text](src/images/DemoDash.png?raw=true "Demo Dashboard")
+![Alt text](src/images/DemoCreate.png?raw=true "Demo Widget Creation")
