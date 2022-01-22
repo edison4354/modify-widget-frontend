@@ -2,10 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Build customized Notion documents with our personalized widgets you can embed into Notion.
 
-## Available Scripts
+## To run the app follow the steps below
 
-In the project directory, you can run:
+After cloning the repo in the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
 Runs the app in the development mode.\
