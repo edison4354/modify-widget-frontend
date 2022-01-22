@@ -21,5 +21,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## View the live demo here
+
+https://modify-widget-frontend.herokuapp.com/
+
 ![Alt text](src/images/DemoDash.png?raw=true "Demo Dashboard")
 ![Alt text](src/images/DemoCreate.png?raw=true "Demo Widget Creation")
